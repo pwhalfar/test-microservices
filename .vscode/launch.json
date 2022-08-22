@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ConfigServiceApplication",
+            "request": "launch",
+            "mainClass": "com.siloamusa.config.service.ConfigServiceApplication",
+            "projectName": "config-service"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-DiscoveryServiceApplication<discovery-service>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
